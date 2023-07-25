@@ -1,8 +1,8 @@
-# UberServe - Fiber Optic Broadband Provider Website
+# UberServe - NextJS & TailwindCSS Broadband Provider Website
 
 ![UberServe Logo](/public/assets/imgs/logos/uberserve.png)
 
-A fully responsive landing page for a fictitious fibre optic broadband provider built with NextJS and TailwindCSS
+A fully responsive landing page for a fictitious broadband provider built with NextJS and TailwindCSS
 
 [Demo here](https://uberserve.jackscottow.com/)
 
