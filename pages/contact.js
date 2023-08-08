@@ -10,22 +10,22 @@ const Contact = () => {
       <Layout>
         <section className="px-2 py-10">
           <div className="container text-center">
-            <div className="flex flex-wrap items-center mx-10 text-center">
-              <div className="w-1/2 px-3 mb-12 lg:w-1/3 wow animate__animated animate__fadeIn animated" data-wow-delay=".1s">
+            <div className="grid grid-cols-1 mx-auto text-center place-items-center lg:grid-cols-3">
+              <div className="px-3 text-center ">
                 <FontAwesomeIcon icon={faPhone} size="3x" className="py-2 text-blue-500" />
                 <div className="leading-relaxed">
                   <span className="text-sm text-blueGray-400">Phone</span>
                   <p>(+44) 01234 567 891</p>
                 </div>
               </div>
-              <div className="w-1/2 px-3 mb-12 lg:w-1/3 wow animate__animated animate__fadeIn animated" data-wow-delay=".3s">
+              <div className="px-3 text-center ">
                 <FontAwesomeIcon icon={faEnvelope} size="3x" className="py-2 text-blue-500" />
                 <div className="leading-relaxed">
                   <span className="text-sm text-blueGray-400">E-mail</span>
                   <p>contact@uberserve.com</p>
                 </div>
               </div>
-              <div className="w-full px-3 mb-12 lg:w-1/3 wow animate__animated animate__fadeIn animated" data-wow-delay=".5s">
+              <div className="px-3 text-center ">
                 <FontAwesomeIcon icon={faLocationDot} size="3x" className="py-2 text-blue-500" />
                 <div className="leading-relaxed">
                   <span className="text-sm text-blueGray-400">Address</span>
@@ -41,7 +41,7 @@ const Contact = () => {
           <div className="container">
             <div className="max-w-2xl mx-auto text-center">
               <div className="max-w-md mx-auto mb-8">
-                <h2 className="mt-2 text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeIn" data-wow-delay=".s">
+                <h2 className="mt-2 text-4xl font-bold font-heading" data-wow-delay=".s">
                   We would <span className="font-bold text-blue-500">love</span> to hear from you!
                 </h2>
               </div>
@@ -56,11 +56,11 @@ const Contact = () => {
                   <div className="flex px-4 mb-4 border border-gray-200 rounded bg-blueGray-50">
                     <input className="w-full py-4 text-xs font-semibold leading-none outline-none placeholder-blueGray-400 bg-blueGray-50" type="email" placeholder="name@email.com" />
                   </div>
-                  <div className="flex px-4 mb-4 border border-gray-200 rounded bg-blueGray-50" data-wow-delay=".3s">
+                  <div className="flex px-4 mb-4 border border-gray-200 rounded bg-blueGray-50">
                     <textarea className="w-full py-4 text-xs font-semibold leading-none outline-none resize-none placeholder-blueGray-400 bg-blueGray-50 h-96" placeholder="Message"></textarea>
                   </div>
 
-                  <div className="flex justify-center wow animate__animatedanimated animate__fadeIn " data-wow-delay=".3s">
+                  <div className="flex justify-center">
                     <button className="px-8 py-4 text-sm font-semibold leading-none text-white bg-blue-500 rounded hover:bg-blue-700" type="submit">
                       Submit
                     </button>
